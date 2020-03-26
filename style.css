@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #999;
+}
+a, a:hover{
+    text-decoration: none;
+}
+header{
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    border-bottom: 1px solid #A1A1A155;
+    padding-bottom: 30px;
+
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.col-6{
+    width: 50%;
+    padding: 0 15px;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+.top-menu_item{
+    margin-left: 40px;
+    color: #fff;
+}
+#hero{
+    background: url("https://i.ibb.co/yNF5mwj/bg-header.jpg");
+    height: 100vh;
+    display: flex;
+}
+.hero-content{
+    margin: auto;
+    text-align: center;
+}
+.header-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+}
+.header-title{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0 40px;
+}
+.btn{
+    width: 200px;
+    height: 45px;
+    left: 860px;
+    top: 520px;
+    background: #4985FF;
+    font-weight: 500;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border: none;
+}
+#about{
+    padding: 100px 0 70px;
+}
+.about-title{
+    font-weight: bold;
+    color: #323232;
+    line-height: 53px;
+    margin-top: 52px;
+}
+.about-text{
+    font-size: 16px;
+    line-height: 25px;
+    color: #999999;
+    padding: 40px 0 30px;
+}
+.read-more{
+    line-height: 20px;
+    color: #4985ff;
+}
+.about-list-item{
+    display: inline-block;
+    margin: 0 50px;
+}
+.about-list{
+    text-align: center;
+    margin-top: 60px;
+}
+.about-list-desc{
+    text-align: left;
+}
+.about-list-icon span{
+    font-size: 36px;
+    line-height: 53px;
+    color: black;
+    padding-left: 16px;
+}
+.under-line:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    width: calc(100% - 30px);
+    height: 1px;
+    background: #c0e0e0;
+}
+.last{
+    display: flex;
+    background: #F6F6F8;
+    width: 100%;
+    height: 400px;
+}
+.end{
+    width: 320px;
+    height: 200px;
+    background: black;
+}<section class="last">
+                      <div class="end"></div>
+                                         <div class="end"></div>
+                                                            <div class="end"></div>
+                                                                               <div class="end"></div>
+                                                                                                  <div class="end"></div>
+                                                                                                                     <div class="end"></div>
+                                                                                                                                        </section>
